@@ -1,0 +1,7 @@
+language: ruby
+
+services:
+  - docker
+
+install:
+  - docker build -t multicatch/django-example-oauth .
