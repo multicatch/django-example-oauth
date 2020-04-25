@@ -2,8 +2,8 @@ language: python
 
 services:
   - docker
-  -
-install:
+
+script:
   - docker build -t multicatch/django-example-oauth .
 
 deploy:
